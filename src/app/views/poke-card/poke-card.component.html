@@ -1,0 +1,24 @@
+
+<mat-card class="pokemon-card">
+  <mat-card-header>
+    <mat-card-title>{{pokemon.name}}</mat-card-title>
+    <mat-card-subtitle>ID {{pokemon.id}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <img mat-card-image src="{{pokemon.pokemonImg}}" alt="Photo of a Pokemon" class="pokemon-image">
+      
+  <mat-card-content>
+    <mat-chip-list>
+      <mat-chip  selected>Type: {{pokemon.pokemonType}}</mat-chip>
+      <mat-chip  selected>Height: {{pokemon.pokemonHeight}}</mat-chip>
+      <mat-chip color="warn" selected>Weight: {{pokemon.pokemonWeight}}</mat-chip>
+      <mat-chip color="primary" selected>Moves: {{pokemon.pokemonMoves}}</mat-chip>
+      <mat-chip color="primary" selected>HP: {{pokemon.pokemonHP}}</mat-chip>
+      <mat-chip color="accent" selected>Attack: {{pokemon.pokemonAttack}}</mat-chip>
+      <mat-chip color="warn" selected>Defense: {{pokemon.pokemonDefense}}</mat-chip>
+      
+    </mat-chip-list>
+
+  </mat-card-content>     
+     
+  </mat-card>
