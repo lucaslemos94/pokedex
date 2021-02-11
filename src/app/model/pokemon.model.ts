@@ -9,7 +9,8 @@ export interface Pokemon{
     pokemonBaseExperience?:number,
     pokemonHP?:number,
     pokemonAttack?:number,
-    pokemonDefense?:number
+    pokemonDefense?:number,
+    atributeTeste?:number
     
 
 
